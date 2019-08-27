@@ -22,7 +22,7 @@ void initFork() {
     }
 
     if(pid > 0) {
-        syslog(LOG_INFO, "Successfully created process %d", pid);
+        syslog(LOG_INFO, "Successfully created process %d ...", pid);
         exit(0);
     }
 

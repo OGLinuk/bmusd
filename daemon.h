@@ -1,3 +1,7 @@
-#include "init.h"
+#include <wait.h>
 
-void start();
+#include "init.h"
+#include "mapper.h"
+
+void start(const char *root);
+void bmus();

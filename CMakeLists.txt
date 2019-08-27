@@ -9,4 +9,6 @@ add_executable(
     daemon.cpp
     init.h
     init.cpp
+    mapper.h
+    mapper.cpp
 )
